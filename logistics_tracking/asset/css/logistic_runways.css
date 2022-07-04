@@ -1,0 +1,432 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("../../asset/font/poppins-webfont.woff2") format("woff2"), url("../../asset/font/poppins-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body{
+  background-color: #181C20;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.class{
+  width: 100vw;
+  height: 100vh;
+}
+.header1_left{
+  width: 100vw;
+  height: 100vh;
+   display: flex;
+}
+img{
+  width: 5vw;
+  height: 5vh;
+}
+.gate_full{
+  color: #f12648;
+}
+.gate_available {
+    color: #0FE287;
+}
+.navbar_left{
+  width: 3.705%;
+  height: 100%;
+  background-color:#2E3134 ;
+   
+}
+.text{
+   width: 100%;
+  height: 100%;
+  transform: rotate(270deg);
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4vw;
+  white-space: nowrap;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+
+}
+.navbar_top{
+  width: 100%;
+  height: 10%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+ 
+  
+}
+.text1{
+  font-size: 2.4vw;
+  margin-left: 2vw;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellowgreen;
+
+  
+ 
+ 
+}
+.glass{
+  width: 93.2%;
+  height: 89vh;
+  
+  margin-left: 3vw;
+  margin-top: -90vh;
+  display: flex;
+  
+  justify-content: center;
+}
+#myCanvas{
+  cursor: pointer;
+  width: 126%; 
+  height: 99%; 
+  }
+.banner{
+  width: 99.3%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner_left{
+  width: 75%;
+  height: 100%;
+  margin-right  :  12.5vw;
+  
+}
+.banner_right{
+width: 25%;
+  height: 100%;
+   cursor: pointer;
+  
+}
+.time_information{
+  margin-right: 4.7vw;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  margin-left: 47vw; 
+  
+  }
+.chart_status{
+  text-align: left ;
+  height: 3vw;
+  margin-left: 2vw;
+}
+.status_chart_top{
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.time_chart_dwn{
+  font-size: 1vw;
+  font-family: "Poppins", sans-serif;
+}
+.chart{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.title_chart{
+  color: #CCCDCE;
+  height: 19.5vh; 
+  width:40%;
+  font-size: 1.5vw;
+  font-weight: bold ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.chart_info{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 4.9vh;
+  margin-left: 2vw;
+  
+ 
+}
+
+.box_titles_chart1{
+  
+  height: 5vh;
+  width: 32%;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1_cahrt{
+  background-color: #F12648;
+  width: 0.5vw;
+  height: 1vh;
+  margin-right: 1vw;
+}
+
+.box3_cahrt{
+  background-color: #0FE287 ;
+  width: 0.5vw;
+  height: 1vh;
+  margin-right: 1vw;
+}
+.title1_chart{
+  font-size: 0.8vw;
+   font-weight: bold;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.box_posisition{
+  position: absolute;
+  top: 9vh;
+  cursor: pointer;
+  width: 69.9%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5vw;
+  
+}
+.posisition{
+  width: 13%;
+  height: 9vh;
+  background-color: hsl(0deg 0% 0% / 51%);
+  margin-right: 0.5vw;
+  margin-left: 0.5;
+  border: 1px solid white;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+.area{
+  align-items: center;
+  justify-content: center;
+  font-size: 2vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+
+}
+.location{
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7vh;
+  font-family: "Poppins", sans-serif;
+}
+.volume{
+  align-items: center;
+  justify-content: center;
+  font-size: 2.7vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+
+.box_posision_icon{
+  position: absolute;
+  top: 66vh;
+  left: 6.5vw;
+  width: 10vw;
+  height: 30vh;
+  background-color: hsl(0deg 0% 0% / 51%);
+  
+}
+.posision_icon{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  
+}
+.icon_gambar{
+  width: 30%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon_gambar1{
+  width: 30%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon_area{
+  width: 60%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 128, 255,0.3);
+  justify-content: center;
+}
+.icon_text{
+  font-size: 0.7vw;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+    .icon_navigator{
+      
+      width: 5vw;
+      height: 5vh;
+    }
+    .icon_menubar{
+      font-size: 2.4vw;
+      font-family: "Poppins", sans-serif;
+      width: 3vw;
+      height: 5vh;
+      cursor: pointer;
+
+      
+    }
+    .call{
+      
+      height: 10vh;
+      width: 95.6%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .icon_menubar{
+      
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .time_info{
+      
+      width: 50%;
+      height: 100%;
+      font-size: 1.5vw;
+     display: flex;
+      align-items: center;
+      justify-content:flex-end;
+      padding-right:4vw ;
+      font-family: "Poppins", sans-serif;
+    }
+    .title_text{
+      
+      width: 90%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 2.4vw;
+      white-space: nowrap;
+      font-weight: bold;
+      font-family: "Poppins", sans-serif;
+      padding-left: 0.5vw;
+    }
+    .icon_menu{
+      
+      width: 4%;
+      height: 100%;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+#map{ width: 126%; height: 99%; }
+.leaflet-popup-content-wrapper{
+  background: none;
+  color: black;
+}
+.leaflet-popup-tip{
+  background: none;
+}
+.marker {
+background-image: url('../../img/icon/location_green1.svg');
+background-size: auto;
+background-repeat: no-repeat;
+width: 27px;
+height: 27px;
+cursor: pointer;
+}
+.marker2 {
+background-image: url('../../img/icon/truck_red.svg');
+background-size: auto;
+background-repeat: no-repeat;
+width: 27px;
+height: 27px;
+cursor: pointer;
+}
+.marker3 {
+background-image: url('../../img/icon/truck_blue.svg');
+background-size: auto;
+background-repeat: no-repeat;
+width: 27px;
+height: 27px;
+cursor: pointer;
+}
+.marker_location_blue {
+background-image: url('../../img/icon/location_blue_philips.svg');
+background-size: auto;
+background-repeat: no-repeat;
+width: 45px;
+height: 45px;
+cursor: pointer;
+}
+.marker_location_greend {
+background-image: url('../../img/icon/location_green1.svg');
+background-size: auto;
+background-repeat: no-repeat;
+width: 40px;
+height: 40px;
+cursor: pointer;
+}
+
+.mapboxgl-popup {
+max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+.mapboxgl-popup-content{
+  color: black;
+}
+
+    
